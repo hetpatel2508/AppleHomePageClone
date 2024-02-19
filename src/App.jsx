@@ -1,26 +1,32 @@
-import Navbar from "./Components/Nav/Navbar.jsx";
-import Content_body from "./Components/Content/Content_body.jsx";
-import GridContent from "./Components/Grid Content/GridContent.jsx";
-import React from "react";
-import './App.css'
+// import Navbar from "./Components/Nav/Navbar.jsx";
+// import Content_body from "./Components/Content/Content_body.jsx";
+// import GridContent from "./Components/Grid Content/GridContent.jsx";
+// import React from "react";
+// import './App.css'
 
-function App() {
-  const [navToggle, setNavToggle] = React.useState(false);
+// function App() {
+//   const [navToggle, setNavToggle] = React.useState(false);
 
-  return (
-    <>
-      <Navbar Toggle={navToggle} setToggle={setNavToggle}></Navbar>
+//   return (
+//     <>
+//       <Navbar Toggle={navToggle} setToggle={setNavToggle}></Navbar>
 
-      {
-        navToggle ? null :
-          <>
-            <Content_body></Content_body>
-            <GridContent></GridContent>
-          </>
-      }
+//       {
+//         navToggle ? null :
+//           <>
+//             <Content_body></Content_body>
+//             <GridContent></GridContent>
+//           </>
+//       }
 
-    </>
-  )
+//     </>
+//   )
+// }
+
+// export default App
+
+function App(){
+<h1>Hello world</h1>
 }
 
-export default App
+export default App;
