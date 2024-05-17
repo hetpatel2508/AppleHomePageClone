@@ -114,12 +114,12 @@ function Footer() {
             </div>
             <div className="h-[auto] md:h-[26px] mt-[16px] flex flex-wrap text-[#0000008f] text-[12.6px] font-normal leading-[16px] tracking-[-0.12px] relative">
               <div className="pb-2 md:pb-0 pr-[38px]">Copyright © 2024 Apple Inc. All rights reserved.</div>
-              <div className="flex flex-wrap text-[12.6px] font-medium leading-[16px] tracking-[-0.12px] text-start">
-                <div className="h-[13px] pr-[9px] border border-solid border-r-[0.5px] border-t-0 border-l-0 border-b-0 border-black">Privacy Policy </div>
-                <div className="h-[13px] pr-[9px] ml-[9px] border border-solid border-r-[0.5px] border-t-0 border-l-0 border-b-0 border-black">Terms of Use</div>
-                <div className="h-[13px] pr-[9px] ml-[9px] border border-solid border-r-[0.5px] border-t-0 border-l-0 border-b-0 border-black">Sales Policy </div>
-                <div className="h-[13px] pr-[9px] ml-[9px] border border-solid border-r-[0.5px] border-t-0 border-l-0 border-b-0 border-black">Legal</div>
-                <div className="h-[13px] pr-[9px] ml-[9px] ">Site Map</div>
+              <div className="flex flex-wrap text-[12.6px] font-medium leading-[16px] tracking-[-0.12px] text-start pb-4">
+                <div className="h-[13px] pb-4 sm:pb-0 pt-1 sm:pt-0 pr-[9px] border border-solid border-r-[0.5px] border-t-0 border-l-0 border-b-0 border-black">Privacy Policy </div>
+                <div className="h-[13px] pb-4 sm:pb-0 pt-1 sm:pt-0 pr-[9px] ml-[9px] border border-solid border-r-[0.5px] border-t-0 border-l-0 border-b-0 border-black">Terms of Use</div>
+                <div className="h-[13px] pb-4 sm:pb-0 pt-1 sm:pt-0 pr-[9px] ml-[9px] border border-solid border-r-[0.5px] border-t-0 border-l-0 border-b-0 border-black">Sales Policy </div>
+                <div className="h-[13px] pb-4 sm:pb-0 pt-1 sm:pt-0 pr-[9px] ml-[9px] border border-solid border-r-[0.5px] border-t-0 border-l-0 border-b-0 border-black">Legal</div>
+                <div className="h-[13px] pb-4 sm:pb-0 pt-1 sm:pt-0 pr-[9px] ml-[9px] ">Site Map</div>
               </div>
               <div className="hidden lg:inline absolute right-0 font-medium">India</div>
             </div>
