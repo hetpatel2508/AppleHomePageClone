@@ -5,6 +5,7 @@ import React from "react";
 import './App.css'
 import VideoRun from "./Components/Video/VideoRun.jsx";
 import MainImgContainer from './Components/ImageSlider/MainImgContainer.jsx'
+import Footer from "./Components/Footer/Footer.jsx";
 
 function App() {
   const [navToggle, setNavToggle] = React.useState(false);
@@ -20,6 +21,7 @@ function App() {
             {/* <VideoRun />
             <GridContent></GridContent> */}
             <MainImgContainer/>
+            <Footer />
           </>
       }
 
