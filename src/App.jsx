@@ -13,18 +13,18 @@ function App() {
 
   return (
     <>
-      {/* <Navbar Toggle={navToggle} setToggle={setNavToggle}></Navbar> */}
+      <Navbar Toggle={navToggle} setToggle={setNavToggle}></Navbar>
 
       {
         navToggle ? null :
           <>
-            {/* <Content_body></Content_body> */}
-            {/* <VideoRun />
-            <GridContent></GridContent> */}
+            <Content_body></Content_body>
+            <VideoRun />
+            <GridContent></GridContent>
             <MainImgContainer/>
-            {/* <InfinitySlider /> */}
+            <InfinitySlider />
             
-            {/* <Footer /> */}
+            <Footer />
           </>
       }
 

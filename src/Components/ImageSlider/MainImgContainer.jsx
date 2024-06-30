@@ -53,7 +53,7 @@ function MainImgContainer(){
     }, [isPlaying])
 
     useEffect(() => {
-        console.log('Updated count:', count);
+        // console.log('Updated count:', count);
         document.querySelectorAll(".indicator")[count].style.backgroundColor = "#333333";
       }, [count]);
     
@@ -103,6 +103,8 @@ function MainImgContainer(){
 
 
     return<>
+            <br /><br /><br />
+
         <div className="w-[100%] h-[480px] sm:h-[533px] md:h-[406px] lg:h-[562px] xl:h-[706px] 2xl:h-[780px] 3xl:h-[800px] 4xl:h-[1000px] flex flex-col ">
            
             <div className="w-[100%] h-[calc(100%-28px)] bg-red-400 ">

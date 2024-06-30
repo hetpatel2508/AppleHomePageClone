@@ -364,11 +364,12 @@ function InfinitySlider() {
             </div>
             <div className='w-[22px] h-[22px] border rounded-full border-transparent bg-[#D2D2D7] absolute right-2 bottom-[-30.5px]' id='toggleButton' onClick={togglePlayPause}>
                         {
-                            stop?pauseSVG:playSVG 
+                            stop?playSVG:pauseSVG 
                         }                        
                 </div>
                     
         </div>
+            <br /><br /><br />
 
 </>
     );
